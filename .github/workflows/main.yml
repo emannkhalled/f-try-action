@@ -15,7 +15,9 @@ jobs:
 
     steps: 
         - name: 'testing git hub'
+          run: pwd
           run: echo eman
+          run: ls
 
 
       
